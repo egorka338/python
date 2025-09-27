@@ -1,3 +1,5 @@
-b = int(input('введите первое число'))
-x = int(input('введите второе число'))
-print(b-x)
+b = float(input('введите первое число'))
+x = float(input('введите второе число'))
+k = abs(b-x)
+k = round(k, 2)
+print(k)
